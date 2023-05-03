@@ -1,0 +1,57 @@
+Start,End,Distance
+Las Vegas,Seattle,1114
+Las Vegas,Anaheim,264
+Las Vegas,Edmonton,1484
+Las Vegas,Calgary,1304
+Las Vegas,San Jose,526
+Las Vegas,Vancouver,1250
+Las Vegas,Los Angeles,270
+Seattle,Vancouver,143
+Seattle,Las Vegas,114
+Seattle,Anaheim,1161
+Seattle,Edmonton,789
+Seattle,Calgary,701
+Seattle,San Jose,840
+Seattle,Los Angeles,1138
+Anaheim,Seattle,1161
+Anaheim,Edmonton,1668
+Anaheim,Calgary,1481
+Anaheim,San Jose,405
+Anaheim,Los Angeles,27
+Anaheim,Vancouver,1344
+Anaheim,Las Vegas,264
+Edmonton,Seattle,790
+Edmonton,Calgary,186
+Edmonton,San Jose,1514
+Edmonton,Los Angeles,1750
+Edmonton,Las Vegas,1483
+Edmonton,Anaheim,1744
+Edmonton,Vancouver,722
+Calgary,Vancouver,604
+Calgary,Seattle,674
+Calgary,Las Vegas,1302
+Calgary,Los Angeles,1569
+Calgary,San Jose,1333
+Calgary,Anaheim,1563
+Calgary,Edmonton,185
+San Jose,Edmonton,1514
+San Jose,Anaheim,405
+San Jose,Seattle,840
+San Jose,Los Angeles,340
+San Jose,Las Vegas,528
+San Jose,Vancouver,981
+San Jose,Calgary,1331
+Los Angeles,Calgary,1570
+Los Angeles,Edmonton,1750
+Los Angeles,San Jose,340
+Los Angeles,Vancouver,1276
+Los Angeles,Las Vegas,270
+Los Angeles,Seattle,1135
+Los Angeles,Anaheim,26
+Vancouver,Anaheim,1301
+Vancouver,Las Vegas,1206
+Vancouver,Edmonton,722
+Vancouver,Seattle,141
+Vancouver,Los Angeles,1276
+Vancouver,San Jose,981
+Vancouver,Calgary,605

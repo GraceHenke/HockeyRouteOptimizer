@@ -1,0 +1,57 @@
+﻿Start,End,Distance
+Devils,Islanders,88
+Devils,Hurricanes,469
+Devils,Penguins,328
+Devils,Rangers,63
+Devils,Capitals,166
+Devils,Flyers,34
+Devils,Blue Jackets,492
+Islanders,Hurricanes,553
+Islanders,Penguins,413
+Islanders,Rangers,31
+Islanders,Capitals,253
+Islanders,Flyers,119
+Islanders,Blue Jackets,577
+Islanders,Devils,90
+Hurricanes,Penguins,480
+Hurricanes,Rangers,666
+Hurricanes,Capitals,304
+Hurricanes,Flyers,440
+Hurricanes,Blue Jackets,458
+Hurricanes,Devils,470
+Hurricanes,Islanders,553
+Penguins,Rangers,370
+Penguins,Capitals,248
+Penguins,Flyers,304
+Penguins,Blue Jackets,185
+Penguins,Devils,328
+Penguins,Islanders,413
+Penguins,Hurricanes,482
+Rangers,Penguins,369
+Rangers,Capitals,528
+Rangers,Flyers,94
+Rangers,Blue Jackets,533
+Rangers,Devils,66
+Rangers,Islanders,31
+Rangers,Hurricanes,528
+Capitals,Flyers,139
+Capitals,Blue Jackets,400
+Capitals,Devils,169
+Capitals,Islanders,252
+Capitals,Penguins,247
+Capitals,Rangers,227
+Capitals,Hurricanes,303
+Flyers,Blue Jackets,469
+Flyers,Devils,34
+Flyers,Islanders,119
+Flyers,Hurricanes,438
+Flyers,Penguins,305
+Flyers,Rangers,94
+Flyers,Capitals,139
+Blue Jackets,Devils,492
+Blue Jackets,Islanders,578
+Blue Jackets,Hurricanes,459
+Blue Jackets,Penguins,185
+Blue Jackets,Rangers,535
+Blue Jackets,Capitals,404
+Blue Jackets,Flyers,469

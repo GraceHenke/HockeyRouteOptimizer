@@ -1,0 +1,57 @@
+﻿Start,End,Distance
+Bruins,Maple Leafs,549
+Bruins,Panthers,1489
+Bruins,Sabres,455
+Bruins,Canadiens,308
+Bruins,Red Wings,706
+Bruins,Lightning,1364
+Bruins,Senators,428
+Maple Leafs,Panthers,1484
+Maple Leafs,Sabres,99
+Maple Leafs,Canadiens,337
+Maple Leafs,Red Wings,231
+Maple Leafs,Lightning,1359
+Maple Leafs,Senators,280
+Maple Leafs,Bruins,549
+Panthers,Sabres,1386
+Panthers,Canadiens,1639
+Panthers,Red Wings,1383
+Panthers,Lightning,269
+Panthers,Senators,1610
+Panthers,Bruins,1489
+Panthers,Maple Leafs,1484
+Senators,Maple Leafs,280
+Senators,Panthers,1610
+Senators,Sabres,337
+Senators,Canadiens,124
+Senators,Red Wings,503
+Senators,Lightning,1486
+Senators,Bruins,428
+Sabres,Maple Leafs,99
+Sabres,Senators,337
+Sabres,Lightning,1261
+Sabres,Red Wings,256
+Sabres,Bruins,455
+Sabres,Canadiens,397
+Sabres,Panthers,1386
+Canadiens,Panthers,1639
+Canadiens,Bruins,308
+Canadiens,Lightning,1515
+Canadiens,Senators,124
+Canadiens,Sabres,397
+Canadiens,Red Wings,560
+Canadiens,Maple Leafs,337
+Red Wings,Maple Leafs,231
+Red Wings,Sabres,256
+Red Wings,Senators,503
+Red Wings,Lightning,1201
+Red Wings,Bruins,706
+Red Wings,Canadiens,560
+Red Wings,Panthers,1383
+Lightning,Maple Leafs,1359
+Lightning,Red Wings,1201
+Lightning,Sabres,1261
+Lightning,Senators,1486
+Lightning,Panthers,269
+Lightning,Bruins,1364
+Lightning,Canadiens,1515

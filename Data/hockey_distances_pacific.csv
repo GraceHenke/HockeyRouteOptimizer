@@ -1,0 +1,57 @@
+﻿Start,End,Distance
+Golden Knights,Kraken,1114
+Golden Knights,Ducks,264
+Golden Knights,Oilers,1484
+Golden Knights,Flames,1304
+Golden Knights,Sharks,526
+Golden Knights,Canucks,1250
+Golden Knights,Kings,270
+Kraken,Canucks,143
+Kraken,Golden Knights,114
+Kraken,Ducks,1161
+Kraken,Oilers,789
+Kraken,Flames,701
+Kraken,Sharks,840
+Kraken,Kings,1138
+Ducks,Kraken,1161
+Ducks,Oilers,1668
+Ducks,Flames,1481
+Ducks,Sharks,405
+Ducks,Kings,27
+Ducks,Canucks,1344
+Ducks,Golden Knights,264
+Oilers,Kraken,790
+Oilers,Flames,186
+Oilers,Sharks,1514
+Oilers,Kings,1750
+Oilers,Golden Knights,1483
+Oilers,Ducks,1744
+Oilers,Canucks,722
+Flames,Canucks,604
+Flames,Kraken,674
+Flames,Golden Knights,1302
+Flames,Kings,1569
+Flames,Sharks,1333
+Flames,Ducks,1563
+Flames,Oilers,185
+Sharks,Oilers,1514
+Sharks,Ducks,405
+Sharks,Kraken,840
+Sharks,Kings,340
+Sharks,Golden Knights,528
+Sharks,Canucks,981
+Sharks,Flames,1331
+Kings,Flames,1570
+Kings,Oilers,1750
+Kings,Sharks,340
+Kings,Canucks,1276
+Kings,Golden Knights,270
+Kings,Kraken,1135
+Kings,Ducks,26
+Canucks,Ducks,1301
+Canucks,Golden Knights,1206
+Canucks,Oilers,722
+Canucks,Kraken,141
+Canucks,Kings,1276
+Canucks,Sharks,981
+Canucks,Flames,605
