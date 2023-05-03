@@ -132,94 +132,34 @@ def remove_duplicates(solutions):
 
 
 
-def DisplayStats():
+def DisplayStats(division):
 
-   pacific_results = pd.read_csv("Data/central_results.csv")
-   #sns.scatterplot(x="Cost", y="Start", data = pacific_results, hue="Function-Type")
-   #plt.show()
-   random_sample = pacific_results.sample(n=1000)
-   
-   sns.scatterplot(x="Cost", y="Start", data = random_sample, hue="Function-Type")
+   results = pd.read_csv("Data/{}_results.csv").format(division)
+
+   # Paths With Different Starting Cities 
+   sns.scatterplot(x="Cost", y="Start", data = results, hue="Function-Type")
    plt.show()
    
-   simple_pacific = pacific_results.query('`Function-Type` == "Simple"')
-   random_pacific =  pacific_results.query('`Function-Type` == "Random"')
+   simple = results.query('`Function-Type` == "Simple"')
+   random =  results.query('`Function-Type` == "Random"')
    
-   # random_sample2 = simple_pacific.sample(n=25)
-   # simple_sample = simple_pacific.sample(n=10)
+   random_sample = simple.sample(n=25)
+   simple_sample = simple.sample(n=25)
    
-   # sns.lineplot(x="Iteration", y="Cost", data = random_sample2)
-   # plt.show()
-   
-    
-    #print(simple_pacific.describe())
-    #print(random_pacific.describe())
-    
+   # Samples of Random and Simple 
+   sns.lineplot(x="Iteration", y="Cost", data = random_sample)
+   plt.show()
 
-    # metro_results = pd.read_csv("metro_results.csv")
-    
-    # simple_metro = metro_results.query('`Function-Type` == "Simple"')
-    # random_metro =  metro_results.query('`Function-Type` == "Random"')
-    
-    # print(simple_metro.describe())
-    # print(random_metro.describe())
-    
-    # print(simple_metro['Cost'].min())
-    # print(random_metro['Cost'].min())
-    
-    # path = simple_metro.query("Cost == 1272")
-    # path_2 = random_metro.query("Cost == 1392")
-    
-    # print(path.to_string())
-    # print(path_2.to_string())
-    
-    
-    # atlantic_results = pd.read_csv("Atlantic_results.csv")
-    
-    # simple_atlantic = atlantic_results.query('`Function-Type` == "Simple"')
-    
-    # random_atlantic =  atlantic_results.query('`Function-Type` == "Random"')
-    
-    # print(simple_atlantic.describe())
-    # print(random_atlantic.describe())
-    
-    # print(simple_atlantic['Cost'].min())
-    # print(random_atlantic['Cost'].min())
-    
-       
-    # path = simple_atlantic.query("Cost == 2931")
-    # path_2 = random_atlantic.query("Cost == 3076")
-    
-    # print(path.to_string())
-    # print(path_2.to_string())
-    # central_results = pd.read_csv("central_results.csv")
-    
-    # simple_central = central_results.query('`Function-Type` == "Simple"')
-    # random_central =  central_results.query('`Function-Type` == "Random"')
-    
-    # print(simple_central.describe())
-    # print(random_central.describe())
-    
-    # print(simple_central['Cost'].min())
-    # print(random_central['Cost'].min())
-    
-    # path = simple_central.query("Cost == 4295")
-    # path_2 = random_central.query("Cost == 4673")
-    
-    # print(path.to_string())
-    # print(path_2.to_string())
-    
-    
-    # describe
-    #print(pacific_results.describe())
-    #print(metro_results.describe())
-    #print(atlantic_results.describe())
-    #print(central_results.describe())
-    
-    
+   sns.lineplot(x="Iteration", y="Cost", data = simple_sample)
+   plt.show()
 
-
-
+   print(simple.describe())
+   print(random.describe())
+   print("Lowest Cost Found For Simple: ", simple['Cost'].min())
+   print("Lowest Cost Found For Random: ", random['Cost'].min())
+   print(results.describe())
+    
+    
 def GenerateSearch(start_city, division):         
     network = TourNetwork(division, start_city)
     network.displayNetwork()
@@ -259,15 +199,15 @@ def GenerateSearch(start_city, division):
 
 # Main Function
 def main():
-    #central = ["Jets", "Blues", "Wild", "Avalanche", "Blackhawks", "Predators", "Stars", "Coyotes"]
-    #pacific = ["Golden Knights", "Kraken", "Ducks","Oilers","Flames","Sharks","Kings", "Canucks"]
-    #metro = ["Devils", "Islanders", "Hurricanes", "Penguins", "Rangers", "Capitals", "Flyers", "Blue Jackets"]
-    #atlantic = ["Bruins", "Maple Leafs", "Panthers", "Senators", "Sabres", "Canadiens", "Red Wings", "Lightning"]
+    central = ["Jets", "Blues", "Wild", "Avalanche", "Blackhawks", "Predators", "Stars", "Coyotes"]
+    pacific = ["Golden Knights", "Kraken", "Ducks","Oilers","Flames","Sharks","Kings", "Canucks"]
+    metro = ["Devils", "Islanders", "Hurricanes", "Penguins", "Rangers", "Capitals", "Flyers", "Blue Jackets"]
+    atlantic = ["Bruins", "Maple Leafs", "Panthers", "Senators", "Sabres", "Canadiens", "Red Wings", "Lightning"]
     
-   # GenerateSearch("Lightning", "Atlantic")
+    GenerateSearch("Lightning", "Atlantic")
 
     
-    DisplayStats()
+    DisplayStats("Atlantic")
             
         
     

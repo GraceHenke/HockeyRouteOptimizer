@@ -89,11 +89,11 @@ class TourNetwork:
         elif division == "Atlantic":
             self.mDistanceTable = pd.read_csv("Data/hockey_distances_atlantic.csv")
         
-        # currently not created
+
         elif division == "Central":
             self.mDistanceTable = pd.read_csv("Data/hockey_distances_central.csv")
         
-        # currently not created
+      
         else:
             self.mDistanceTable = pd.read_csv("Data/hockey_distances_metro.csv")
             
@@ -123,7 +123,7 @@ class TourNetwork:
         
         
     def displaydivisionMap(self):
-        # Basemap Implementation
+        # Basemap Implementation?
         
         pass
     
