@@ -62,7 +62,7 @@ __Additional Methods__
 - __calculateCost__: caculates the cost of the path
 - __displayPathPerfomance__: displays the ending performace of the path
 - __displayNetwork__: visually displays the nx network.
-- __displaydivisionMap__: visually depiction of the all of the divisions.
+- __displaydivisionMap__: visually depiction of the all of the divisions. (currently not implemented!)
 
 
 # Generated Networkx Graph Example
